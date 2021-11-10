@@ -19,7 +19,7 @@ namespace TaskManager.Controllers
         // GET: HomeController
         public ActionResult Index()
         {
-            return View(tasks.Where(x => !x.Done));
+            return View(tasks.Where(x => !x.Done));  
         }
 
         // GET: HomeController/Details/5
